@@ -17,15 +17,26 @@
 
         header {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Flag_of_Honduras.svg/255px-Flag_of_Honduras.svg.png') left center no-repeat, 
+            position: relative;
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Flag_of_Honduras.svg/800px-Flag_of_Honduras.svg.png?20221206233425') left center no-repeat, 
                         url('https://cdn.britannica.com/78/6078-004-77AF7322/Flag-Australia.jpg') right center no-repeat;
             background-size: contain;
-            height: 200px;
+            height: 300px;
             color: #fff;
-            text-align: center;
             padding: 2em;
+        }
+
+        header h1 {
+            font-family: 'cursive';
+            font-size: 3em;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
 
         section {
@@ -70,7 +81,7 @@
 
     <!-- Header Section -->
     <header>
-        <h1 style="font-family: 'cursive'; font-size: 3em; margin: 0;">Hola Amor</h1>
+        <h1>Hola Amor</h1>
     </header>
 
     <!-- Introduction Section -->
@@ -114,11 +125,41 @@
         <!-- You can add images here -->
     </section>
 
+    <!-- Alert Space Section -->
+    <section class="purple-section">
+        <h2>Alert Space</h2>
+        <p>This section can be used for special announcements, messages, or anything you want to highlight.</p>
+    </section>
+
+    <!-- Bucket List Section -->
+    <section class="blue-section">
+        <h2>Bucket List</h2>
+        <p>Share your dreams and aspirations as a couple. What adventures do you want to experience together?</p>
+    </section>
+
+    <!-- Future Planning Section -->
+    <section class="green-section">
+        <h2>Future Planning</h2>
+        <p>Discuss your plans for the future, both short-term and long-term. It could include travel, life goals, or anything you envision together.</p>
+    </section>
+
+    <!-- Why I Like You Section -->
+    <section class="black-section">
+        <h2>Why I Like You</h2>
+        <p>Express the reasons why you love and appreciate your girlfriend. Share the qualities that make her special to you.</p>
+    </section>
+
+    <!-- Games Section -->
+    <section class="white-section">
+        <h2>Games</h2>
+        <p>If you have special games or activities you enjoy together, you can talk about them in this section.</p>
+    </section>
+
     <!-- Additional Sections can be added as needed -->
 
     <!-- Footer Section -->
     <footer style="background-color: #4e2a8e; color: #fff; text-align: center; padding: 1em;">
-        <p>&copy; 2024: Vale's honorary ranga, Oliver Lancaster</p>
+        <p>&copy; 2024 Your Name</p>
     </footer>
 
 </body>
