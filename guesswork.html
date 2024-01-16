@@ -12,6 +12,20 @@
             padding: 0;
             box-sizing: border-box;
             font-family: Arial, sans-serif;
+            background-color: #ecf0f1; /* Fallback color in case flags don't cover the entire background */
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Flag_of_Honduras.svg/255px-Flag_of_Honduras.svg.png') left center no-repeat, 
+                        url('https://cdn.britannica.com/78/6078-004-77AF7322/Flag-Australia.jpg') right center no-repeat;
+            background-size: contain;
+            height: 200px;
+            color: #fff;
+            text-align: center;
+            padding: 2em;
         }
 
         section {
@@ -48,16 +62,19 @@
         .intro-section {
             text-align: center;
             padding: 4em;
-            background-color: #f39c12;
             color: #fff;
         }
     </style>
 </head>
 <body>
 
+    <!-- Header Section -->
+    <header>
+        <h1 style="font-family: 'cursive'; font-size: 3em; margin: 0;">Hola Amor</h1>
+    </header>
+
     <!-- Introduction Section -->
-    <section class="intro-section">
-        <h2>Welcome to Hola Amor!</h2>
+    <section class="intro-section" style="background: none;">
         <p>This is a special place where we celebrate our journey, share memories, and dream about the future together.</p>
         <!-- You can add more introductory content here -->
     </section>
@@ -101,7 +118,7 @@
 
     <!-- Footer Section -->
     <footer style="background-color: #4e2a8e; color: #fff; text-align: center; padding: 1em;">
-        <p>&copy; 2024: Oliver Lancaster, Vale's honorary ranga</p>
+        <p>&copy; 2024: Vale's honorary ranga, Oliver Lancaster</p>
     </footer>
 
 </body>
