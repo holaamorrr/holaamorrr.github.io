@@ -1,1 +1,24 @@
-<!-- Add versatility, atm here for creating boxes such that images can be placed on the opposite side of text -->
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    color: #333;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+}
+
+.text {
+    flex: 1;
+    text-align: center;
+}
+
+.image {
+    width: 30%; /* Adjust as needed */
+    margin-right: 1em; /* Add some margin between text and image */
+}
+
+/* Rest of your CSS styles for sections... */
