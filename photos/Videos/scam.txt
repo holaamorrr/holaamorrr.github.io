@@ -1,0 +1,1 @@
+literally just change the images to gifs and use the image stuff to handle them, they will autoplay and it should be much smoother
